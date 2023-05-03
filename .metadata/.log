@@ -352,3 +352,6 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-05-02 21:57:12.043
 !MESSAGE Boot LS startup time from start to initialized: 2296ms
+
+!ENTRY org.eclipse.ui 2 2 2023-05-02 23:24:20.186
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
