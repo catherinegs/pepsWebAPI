@@ -1,0 +1,50 @@
+spring: 
+    datasource: 
+        url: jdbc:postgresql://localhost:5432/registrationPeps
+        username: postgres
+        password: postgres
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        properties: 
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQL81Dialect
+    application: 
+        name: RegistrationServiceApplication
+        driverClassName: com.postgresql.jdbc.Driver
+
+server: 
+    port: 9001
+org:
+  springframework:
+    boot:
+      autoconfigure:
+        postgresql: INFO
+      web:
+        embedded:
+          tomcat: INFO
+          server: 
+          port: 9001
+          
+logging:           
+  level: 
+    org.springframework.web: debug
+    org.hibernate: ERROR
+
+com:
+  example:
+    demo: INFO
+  format_sql: true
+
+security:
+  oauth2:
+    client:
+      registration:
+        facebook:
+          clientId: 197757963067984
+          clientSecret: 0d189a3780d3fa2e5b980684fc8087e7
+          redirectUri: '{baseUrl}/oauth2/callback/{registrationId}'
+          scope:
+            - email
+            - public_profile
