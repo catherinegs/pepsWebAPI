@@ -15,8 +15,6 @@ Rsrc/main/java/com/microservices/registrationService/controller/UserController.j
 Wsrc/main/java/com/microservices/registrationService/exceptions/BadRequestException.java,a/2/a236d5e30e75a18c8bccb8c0b64b2acd4beb959d
 ›
 ksrc/main/java/com/microservices/registrationService/exceptions/OAuth2AuthenticationProcessingException.java,d/9/d9826680e5a4c62d600c92449beaf9559cf4d80d
-{
-Ksrc/main/java/com/microservices/registrationService/model/AuthProvider.java,c/3/c380e6d5ae76ba4e0c49df996cea2137187b1aa3
 s
 Csrc/main/java/com/microservices/registrationService/model/Role.java,0/4/04fccddfe92810b4b2a44ac0c68acf9a288a3ad3
 s
@@ -31,3 +29,7 @@ R
 "src/main/resources/application.yml,a/6/a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58
 ‚
 Rsrc/main/java/com/microservices/registrationService/repository/RoleRepository.java,5/3/537995f11e0dbe7efa1aa7f682f8ea90fa2da119
+{
+Ksrc/main/java/com/microservices/registrationService/model/AuthProvider.java,c/3/c380e6d5ae76ba4e0c49df996cea2137187b1aa3
+|
+Lsrc/main/java/com/microservices/registrationService/payload/ApiResponse.java,4/5/4503bdd328878b341f179065ed3e0bc3df4b4d79
